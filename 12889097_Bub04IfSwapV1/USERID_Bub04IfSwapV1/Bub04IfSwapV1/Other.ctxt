@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Other
+comment0.text=\r\n\ Simple\ utility\ functions\ used\ by\ the\ Bubble\ Sort\ code.\r\n\ \r\n\ @author\ Raymond\ Lister\ \r\n\ @version\ April\ 2018\r\n
+comment1.params=a\ first\ last
+comment1.target=int\ isSorted(int[],\ int,\ int)
+comment1.text=\ \r\n\ This\ method\ checks\ if\ an\ array\ is\ sorted\ into\ ascending\ order.\ \r\n\ \r\n\ At\ the\ time\ you\ complete\ this\ lab\ exerise\ on\ \r\n\ bubSort04,\ you\ are\ NOT\ expected\ to\ understand\ the\r\n\ code\ in\ this\ method.\r\n\ \r\n\ @param\ \ \ a\ \ \ \ \ \ \ An\ array\ of\ integers\r\n\ @param\ \ \ first\ \ \ A\ valid\ position\ in\ the\ array\ "a"\r\n\ @param\ \ \ last\ \ \ \ A\ valid\ position\ in\ the\ array\ "a",\ where\ first\ is\ less\ than\ or\ equal\ to\ last\r\n\ \r\n\ @return\ \ 1\ if\ the\ elements\ from\ "first"\ to\ "last"\ are\ sorted,\ otherwise\ return\ -1.\ \r\n
+comment2.params=a
+comment2.target=void\ printArray(int[])
+comment2.text=\r\n\ Prints\ out\ an\ array,\ with\ opening\ and\ closing\ braces,\ and\r\n\ comma\ separated\ elements.\ For\ example\ "{1,2,3,4}".\ \r\n\r\n\ @param\ \ \ a\ \ \ \ \ \ \ An\ array\ of\ integers\r\n
+comment3.params=a\ first\ last
+comment3.target=int\ maxPosition(int[],\ int,\ int)
+comment3.text=\r\n\ Returns\ the\ position\ of\ the\ largest\ element\ in\ the\ given\ portion\ of\ the\ array.\r\n\ \r\n\ If\ there\ is\ more\ than\ one\ occurrence\ of\ the\ maximum\ element,\r\n\ maxPosition\ will\ return\ one\ of\ the\ positions,\r\n\ but\ exactly\ which\ of\ those\ positions\ is\ not\ defined.\r\n\ \r\n\ At\ the\ time\ you\ complete\ this\ lab\ exerise\ on\ \r\n\ bubSort04,\ you\ are\ NOT\ expected\ to\ understand\ the\r\n\ code\ in\ this\ method.\r\n\ \r\n\ @param\ \ \ a\ \ \ \ \ \ \ An\ array\ of\ integers\r\n\ @param\ \ \ first\ \ \ A\ valid\ position\ in\ the\ array\ "a"\r\n\ @param\ \ \ last\ \ \ \ A\ valid\ position\ in\ the\ array\ "a",\ where\ first\ is\ less\ than\ or\ equal\ to\ last\r\n\ \r\n\ @return\ \ The\ POSITION\ of\ the\ maximum\ element\ in\ array\ "a"\ between\ positions\ "first\ and\ "last"\ (inclusive).\r\n
+comment4.params=a\ first\ last
+comment4.target=int\ minPosition(int[],\ int,\ int)
+comment4.text=\r\n\ Returns\ the\ position\ of\ the\ smallest\ element\ in\ the\ given\ portion\ of\ the\ array.\r\n\ \r\n\ If\ there\ is\ more\ than\ one\ occurrence\ of\ the\ minimum\ element,\r\n\ minPosition\ will\ return\ one\ of\ the\ positions,\r\n\ but\ exactly\ which\ of\ those\ positions\ is\ not\ defined.\r\n\ \r\n\ @param\ \ \ a\ \ \ \ \ \ \ An\ array\ of\ integers\r\n\ @param\ \ \ first\ \ \ A\ valid\ position\ in\ the\ array\ "a"\r\n\ @param\ \ \ last\ \ \ \ A\ valid\ position\ in\ the\ array\ "a",\ where\ first\ is\ less\ than\ or\ equal\ to\ last\r\n\ \r\n\ @return\ \ The\ POSITION\ of\ the\ maximum\ element\ in\ array\ "a"\ between\ positions\ "first\ and\ "last"\ (inclusive).\r\n
+comment5.params=message\ x\ i
+comment5.target=void\ debug(java.lang.String,\ int[],\ int)
+comment5.text=\ This\ method\ generates\ output\ that\ is\ useful\r\n\ when\ debugging\ bubSort04.\r\n\ \r\n\ Also,\ plate\ EXPECTS\ to\ see\ the\ output\ generated\ by\ this\ method.\r\n\ \r\n\ At\ the\ time\ you\ complete\ this\ lab\ exerise\ on\ \r\n\ bubSort04,\ you\ are\ NOT\ expected\ to\ understand\ the\r\n\ code\ in\ this\ method.\r\n
+comment6.params=a\ i\ j
+comment6.target=void\ swap(int[],\ int,\ int)
+comment6.text=\r\n\ Swaps\ the\ contents\ of\ positions\ i\ and\ j\ in\ the\ array.\r\n
+numComments=7
